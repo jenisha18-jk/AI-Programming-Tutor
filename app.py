@@ -92,7 +92,7 @@ Keep everything beginner-friendly.
 """
 
             response = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-3.5-flash",
                 contents=prompt
             )
 
@@ -147,7 +147,7 @@ Keep the explanation simple.
 
 try:
     memory_response = client.models.generate_content(
-        model="gemini-1.5-flash",
+        model="gemini-3.5-flash",
         contents=memory_prompt
     )
 
@@ -187,7 +187,7 @@ Explain simply with examples.
 
         try:
             chat_response = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-3.5-flash",
                 contents=chat_prompt
             )
 

@@ -92,7 +92,7 @@ Keep everything beginner-friendly.
 """
 
             response = client.models.generate_content(
-                model="gemini-2.5-flash-lite",
+                model="gemini-2.5-flash",
                 contents=prompt
             )
 
@@ -187,7 +187,7 @@ Explain simply with examples.
 
         try:
             chat_response = client.models.generate_content(
-                model="gemini-2.5-flash-lite",
+                model="gemini-2.5-flash",
                 contents=chat_prompt
             )
 
